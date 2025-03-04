@@ -65,4 +65,6 @@ EOL
 echo "Restarting application..."
 npm run restart
 
+rm -rf setup.sh
+
 echo "Process completed successfully."
