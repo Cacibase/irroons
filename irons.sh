@@ -5,9 +5,10 @@ tmux new-session -d -s mysession
 
 echo "Updating system packages..."
 sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt install expect -y
 
 echo "Cloning repository..."
-git clone --depth 1 https://gitea.com/l657k65jyhjr/ironn
+git clone --depth 1 https://gitea.com/lux0nwushcf1/ironn
 
 cd ironn || exit
 
