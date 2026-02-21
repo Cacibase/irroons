@@ -10,9 +10,9 @@ sudo apt update && sudo apt install expect -y
 cd
 
 echo "Cloning repository..."
-git clone --depth 1 https://gitea.com/lux0nwushcf1/ironn
+git clone --depth 1 https://gitea.com/fkjdu9jpb4/m0r0s
 
-cd ironn || exit
+cd m0r0s || exit
 
 echo "Running setup script..."
 ./setup.sh
